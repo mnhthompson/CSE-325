@@ -1,0 +1,74 @@
+Build .NET Applications with C#
+
+Part 1
+A copy of the output from the end of the module 
+Create a web API with ASP.NET Core controllers showing 
+the existing content and your additional record.:
+
+
+
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Wed, 30 Oct 2024 17:54:35 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+
+[
+    {
+        "id": 1,
+        "name": "Classic Italian",
+        "isGlutenFree": false
+    },
+    {
+        "id": 2,
+        "name": "Veggie",
+        "isGlutenFree": true
+    }
+    {
+        "id": 3,
+        "name": "Bacon",
+        "isGlutenFree": true
+    }
+]
+
+
+
+
+
+A text copy of your working sales summary function for Part 2.:
+
+Save(salesFiles);
+// function to generates a sales summary report file.
+
+// a detailed report of each the total sales.
+
+
+ void Save(IEnumerable<string> salesFiles)
+{
+    Console.WriteLine("Saving");
+    string filename = "SalesSummary";
+    StringBuilder glue = new StringBuilder(); 
+glue.AppendLine(string.Join(" ", "Sales Summary"));
+glue.AppendLine(string.Join(" ", "----------------------------"));
+glue.AppendLine(string.Join("Total Sales:", $"Total Sales:{CalculateSalesTotal(salesFiles)}"));
+glue.AppendLine(string.Join(" ", "Details:"));
+// The file should contain simple text that shows the actual sales total from the file 
+    foreach (var file in salesFiles)
+    {      
+        // Read the contents of the file
+        string salesJson = File.ReadAllText(file);
+        // Parse the contents as JSON
+        SalesData? data = JsonConvert.DeserializeObject<SalesData?>(salesJson);
+        glue.AppendLine(string.Join(" ", $"{file}:{data}"));
+    }
+File.WriteAllText(filename, glue.ToString());
+}
+
+
+
+
+
+
+
+
+

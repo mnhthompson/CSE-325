@@ -1,0 +1,13 @@
+Sales Summary
+----------------------------
+Total Sales:2012.2000000000003
+Details:
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Work with files and directories in a .NET app\mslearn-dotnet-files\stores\sales.json:SalesData { Total = 88.88 }
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Work with files and directories in a .NET app\mslearn-dotnet-files\stores\201\sales.json:SalesData { Total = 501.22 }
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Work with files and directories in a .NET app\mslearn-dotnet-files\stores\201\salestotals.json:SalesData { Total = 0 }
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Work with files and directories in a .NET app\mslearn-dotnet-files\stores\202\sales.json:SalesData { Total = 1234.22 }
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Work with files and directories in a .NET app\mslearn-dotnet-files\stores\202\salestotals.json:SalesData { Total = 0 }
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Work with files and directories in a .NET app\mslearn-dotnet-files\stores\203\sales.json:SalesData { Total = 99 }
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Work with files and directories in a .NET app\mslearn-dotnet-files\stores\203\salestotals.json:SalesData { Total = 0 }
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Work with files and directories in a .NET app\mslearn-dotnet-files\stores\204\sales.json:SalesData { Total = 88.88 }
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Work with files and directories in a .NET app\mslearn-dotnet-files\stores\204\salestotals.json:SalesData { Total = 0 }
