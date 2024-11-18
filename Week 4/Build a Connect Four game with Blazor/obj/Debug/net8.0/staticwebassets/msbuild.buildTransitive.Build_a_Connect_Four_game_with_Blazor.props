@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Build_a_Connect_Four_game_with_Blazor.props" />
+</Project>

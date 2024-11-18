@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Build_a_Connect_Four_game_with_Blazor/1.0.0": {
+        "runtime": {
+          "Build_a_Connect_Four_game_with_Blazor.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Build_a_Connect_Four_game_with_Blazor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

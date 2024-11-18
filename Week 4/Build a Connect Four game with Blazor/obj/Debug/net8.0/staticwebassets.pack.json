@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Marcus Thompson\\OneDrive\\Desktop\\CSE 325\\Week 4\\Build a Connect Four game with Blazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Build_a_Connect_Four_game_with_Blazor.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Build_a_Connect_Four_game_with_Blazor.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Marcus Thompson\\OneDrive\\Desktop\\CSE 325\\Week 4\\Build a Connect Four game with Blazor\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Marcus Thompson\\OneDrive\\Desktop\\CSE 325\\Week 4\\Build a Connect Four game with Blazor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Marcus Thompson\\OneDrive\\Desktop\\CSE 325\\Week 4\\Build a Connect Four game with Blazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Marcus Thompson\\OneDrive\\Desktop\\CSE 325\\Week 4\\Build a Connect Four game with Blazor\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Build_a_Connect_Four_game_with_Blazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Build_a_Connect_Four_game_with_Blazor.props",
+      "PackagePath": "build\\Build_a_Connect_Four_game_with_Blazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Build_a_Connect_Four_game_with_Blazor.props",
+      "PackagePath": "buildMultiTargeting\\Build_a_Connect_Four_game_with_Blazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Build_a_Connect_Four_game_with_Blazor.props",
+      "PackagePath": "buildTransitive\\Build_a_Connect_Four_game_with_Blazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

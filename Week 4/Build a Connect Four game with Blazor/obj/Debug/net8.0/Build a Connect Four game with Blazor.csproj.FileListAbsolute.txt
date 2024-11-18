@@ -1,0 +1,31 @@
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\bin\Debug\net8.0\appsettings.json
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\bin\Debug\net8.0\Build_a_Connect_Four_game_with_Blazor.staticwebassets.runtime.json
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\bin\Debug\net8.0\Build_a_Connect_Four_game_with_Blazor.exe
+c:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\bin\Debug\net8.0\Build_a_Connect_Four_game_with_Blazor.deps.json
+c:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\bin\Debug\net8.0\Build_a_Connect_Four_game_with_Blazor.runtimeconfig.json
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\bin\Debug\net8.0\Build_a_Connect_Four_game_with_Blazor.dll
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\bin\Debug\net8.0\Build_a_Connect_Four_game_with_Blazor.pdb
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\obj\Debug\net8.0\Build a Connect Four game with Blazor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\obj\Debug\net8.0\Build a Connect Four game with Blazor.AssemblyInfoInputs.cache
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\obj\Debug\net8.0\Build a Connect Four game with Blazor.AssemblyInfo.cs
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\obj\Debug\net8.0\Build a Connect Four game with Blazor.csproj.CoreCompileInputs.cache
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\obj\Debug\net8.0\Build_a_Connect_Four_game_with_Blazor.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\obj\Debug\net8.0\Build a Connect Four game with Blazor.sourcelink.json
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\obj\Debug\net8.0\staticwebassets\msbuild.Build_a_Connect_Four_game_with_Blazor.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\obj\Debug\net8.0\staticwebassets\msbuild.build.Build_a_Connect_Four_game_with_Blazor.props
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Build_a_Connect_Four_game_with_Blazor.props
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Build_a_Connect_Four_game_with_Blazor.props
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\obj\Debug\net8.0\scopedcss\bundle\Build_a_Connect_Four_game_with_Blazor.styles.css
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\obj\Debug\net8.0\scopedcss\projectbundle\Build_a_Connect_Four_game_with_Blazor.bundle.scp.css
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\obj\Debug\net8.0\Build_a_Connect_Four_game_with_Blazor.dll
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\obj\Debug\net8.0\refint\Build_a_Connect_Four_game_with_Blazor.dll
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\obj\Debug\net8.0\Build_a_Connect_Four_game_with_Blazor.pdb
+c:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\obj\Debug\net8.0\Build a Connect Four game with Blazor.genruntimeconfig.cache
+c:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\obj\Debug\net8.0\ref\Build_a_Connect_Four_game_with_Blazor.dll
+C:\Users\Marcus Thompson\OneDrive\Desktop\CSE 325\Week 4\Build a Connect Four game with Blazor\obj\Debug\net8.0\scopedcss\Components\Board.razor.rz.scp.css

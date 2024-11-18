@@ -1,0 +1,132 @@
+@inject ConnectFour.GameState State
+@using System.Drawing
+
+<HeadContent>
+    <style>
+        :root {
+            --board-bg: @ColorTranslator.ToHtml(BoardColor);
+            --player1: @ColorTranslator.ToHtml(Player1Color);
+            --player2: @ColorTranslator.ToHtml(Player2Color);
+        }
+    </style>
+</HeadContent>
+ <br />
+<p role="status">Wins Player 1: @Player1Count</p>
+<p role="status">Wins Player 2: @Player2Count</p>
+ <br />
+<nav>
+    @for (byte i = 0; i < 7; i++)
+    {
+        var col = i;
+        <span title="Click to play a piece" @onclick="() => PlayPiece(col)">🔽</span>
+    }
+</nav>
+
+
+
+
+<article>
+    @winnerMessage  <button style="@ResetStyle" @onclick="ResetGame">Reset the game</button>
+    <button style="@ResetStyle" @onclick="IncrementCount">Player 1 won</button>
+    <button style="@ResetStyle" @onclick="IncrementCount2">Player 2 won</button>
+    <br />
+    <span class="alert-danger">@errorMessage</span>
+    <span class="alert-info">@CurrentTurn</span>
+</article>
+
+<div>
+    <div class="board">
+    @for (var i = 0; i < 42; i++)
+    {
+        <span class="container">
+            <span></span>
+        </span>
+    }
+    </div>
+    @for (var i = 0; i < 42; i++)
+    {
+       <span class="@pieces[i]"></span>
+    }
+
+
+
+</div>
+
+
+
+@code {
+    private string[] pieces = new string[42];
+    private string winnerMessage = string.Empty;
+    private string errorMessage = string.Empty;
+
+    private string CurrentTurn => (winnerMessage == string.Empty) ? $"Player {State.PlayerTurn}'s Turn" : "";
+    private string ResetStyle => (winnerMessage == string.Empty) ? "display: none;" : "";   
+
+    private int Player1Count = 0;
+    private int Player2Count = 0;
+
+
+[Parameter]
+public Color BoardColor { get; set; } = ColorTranslator.FromHtml("yellow");
+
+[Parameter]
+public Color Player1Color { get; set; } = ColorTranslator.FromHtml("red");
+
+[Parameter]
+public Color Player2Color { get; set; } = ColorTranslator.FromHtml("blue");
+
+    protected override void OnInitialized()
+    {
+        State.ResetBoard();
+    }
+
+
+
+
+private void PlayPiece(byte col)
+{
+  errorMessage = string.Empty;
+try
+{
+    var player = State.PlayerTurn;
+    var turn = State.CurrentTurn;
+    var landingRow = State.PlayPiece(col);
+    pieces[turn] = $"player{player} col{col} drop{landingRow}";
+}
+catch (ArgumentException ex)
+{
+    errorMessage = ex.Message;
+}
+
+
+
+
+winnerMessage = State.CheckForWin() switch
+{
+    ConnectFour.GameState.WinState.Player1_Wins => "Player 1 Wins!",
+    ConnectFour.GameState.WinState.Player2_Wins => "Player 2 Wins!",
+    ConnectFour.GameState.WinState.Tie => "It's a tie!",
+    _ => ""
+};
+}
+
+void ResetGame()
+{
+    State.ResetBoard();
+    winnerMessage = string.Empty;
+    errorMessage = string.Empty;
+    pieces = new string[42];
+}
+
+
+    private void IncrementCount()
+    {
+        Player1Count++;
+    }
+
+        private void IncrementCount2()
+    {
+        Player2Count++;
+    }
+
+}
