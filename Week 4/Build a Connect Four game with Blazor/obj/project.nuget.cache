@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iebdJZadbzeamUglPtXPSAeDUHdV3JH8t3tvW8T6phSkuipiwh1O2+CmsTedSzijZ+1qKsLWQpRh6uMCu+061A==",
+  "dgSpecHash": "cPMosSmarL1EFudVg3jtpwkeblh/an5nL8i2ooyUhVU4dKmg/dN43bTjGD2J8UoGXXCQNKCK4n3ASCxdDs60Ow==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Marcus Thompson\\OneDrive\\Desktop\\CSE 325\\Week 4\\Build a Connect Four game with Blazor\\Build a Connect Four game with Blazor.csproj",
+  "projectFilePath": "C:\\Users\\Marcus Thompson\\OneDrive\\Desktop\\CSE 325\\Week 4\\Build a Connect Four game with Blazor\\Build a Connect Four game with Blazor.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
